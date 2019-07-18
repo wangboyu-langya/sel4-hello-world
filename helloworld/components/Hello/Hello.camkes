@@ -1,0 +1,7 @@
+/* apps/helloworld/components/Hello/Hello.camkes */
+
+import "../../interfaces/MyInterface.idl4";
+
+component Hello {
+  provides MyInterface inf;
+}

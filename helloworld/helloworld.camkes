@@ -1,0 +1,13 @@
+/* apps/helloworld/helloworld.camkes */
+
+import <std_connector.camkes>;
+import "components/Hello/Hello.camkes";
+import "components/Client/Client.camkes";
+
+assembly {
+  composition {
+    component Hello h;
+    component Client c;
+    connection seL4RPCCall conn(from c.iface, to h.inf);
+  }
+}

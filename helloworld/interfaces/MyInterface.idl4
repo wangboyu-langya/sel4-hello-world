@@ -1,0 +1,5 @@
+/* apps/helloworld/interfaces/MyInterface.idl4 */
+
+procedure MyInterface {
+  void print(in string message);
+}

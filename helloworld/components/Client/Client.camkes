@@ -1,0 +1,8 @@
+/* apps/helloworld/components/Client/Client.camkes */
+
+import "../../interfaces/MyInterface.idl4";
+
+component Client {
+  control;
+  uses MyInterface iface;
+}
