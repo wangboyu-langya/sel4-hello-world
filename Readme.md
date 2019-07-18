@@ -1,6 +1,6 @@
 # Reorganization of seL4 docs
 
-** Table of Contents
+**Table of Contents**
 
 - Dependencies
 - Camkes
