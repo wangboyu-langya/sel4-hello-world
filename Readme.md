@@ -8,7 +8,7 @@
 
 ## Dependencies
 
-It's rather strange that the dependencies of seL4 are not shown somewhere conspicuous. Instead, it is hidden in one of the tutorials.
+It's rather strange that the [dependencies of seL4](https://docs.sel4.systems/HostDependencies) are not shown somewhere conspicuous. Instead, it is hidden in one of the tutorials.
 
 seL4 relies on a lot of depencies. If you want to set up your own environment, you have to manually install all the dependencies. However, I have written a docker file to set up all these, you can download directly at this repo.
 
